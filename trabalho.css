@@ -1,0 +1,202 @@
+
+body{ 
+    background-color:white;
+}
+
+.titulo{color: white;
+        font-family: "Arial Black", Gadget, sans-serif;
+        margin-top: auto; 
+}
+
+h3{
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    color: white;
+}
+
+.sessao{
+    background-color:red;
+    padding: 15px;
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+    width: 90%;
+    
+}
+.avatar{
+     border-radius: 50% ;
+     display: block;
+     margin-left: auto;
+     margin-right:auto;
+     width: 50%;
+     width: 150px;
+     
+    }
+.input{position:absolute;
+    left: 300px;
+    top: 425px;
+    width: 200px;
+    background-color:white;
+    
+    display: block;
+}
+.pokedex{
+    color: red;
+}
+
+h5{ text-align: center;
+    word-spacing: 25px;
+    
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+
+.bulbassauro{
+    width:150px;
+    height: 150px;
+    border: 3px solid red;
+    padding: 0 16em;
+    padding-left: 10px;
+    
+}
+.dito{
+    width:150px;
+    height: 150px;
+    border: 3px solid red;
+    padding: 0 16em;
+    padding-left: 10px;
+}
+.charmander{
+    width:150px;
+    height: 150px;
+    border: 3px solid red;
+    padding: 0 16em;
+    padding-left: 10px;
+}
+.pikachu{
+    width:150px;
+    height: 150px;
+    border: 3px solid red;
+    padding: 0 16em;
+    padding-left: 10px;
+}
+.eve{
+    width:150px;
+    height: 150px;
+    border: 3px solid red;
+    padding: 0 16em;
+    padding-left: 10px;
+}
+.squirtle{
+    width:150px;
+    height: 150px;
+    border: 3px solid red;
+    padding: 0 16em;
+    padding-left: 10px;
+}
+
+.flex{
+height:500px;
+padding: 10px;
+
+position: relative;
+  right: 125px;
+  top: 100px;
+  
+display: grid;
+  grid-template-columns: repeat(3,150px);  /* 3 colunas */
+  grid-template-rows: repeat(3,150px); /* 2 linhas  */
+  grid-gap:100px 400px; /* linhas , colunas */
+  justify-content: center;
+  
+}
+
+.nomepokemons{
+    position: relative;
+  right: -50px;
+  bottom: 400px;
+  
+  font-family:Impact, Charcoal, sans-serif ;
+  font-size: 20px ;
+  white-space: nowrap;
+
+  
+    display: grid;
+  grid-template-columns: repeat(3,150px);  /* 3 colunas */
+  grid-template-rows: repeat(3,150px); /* 2 linhas  */
+  grid-gap:100px 400px; /* linhas , colunas */
+  justify-content: center;
+}
+
+.tipospokemon{
+    height:1px;
+    padding: 10px;
+
+position: relative;
+  right: -180px;
+  bottom: 990px;
+  
+display: grid;
+  grid-template-columns: repeat(3,150px);  /* 3 colunas */
+  grid-template-rows: repeat(3,150px); /* 2 linhas  */
+  grid-gap:100px 400px; /* linhas , colunas */
+  justify-content: center;
+    
+    
+}
+
+.icon{
+    width: 50px;
+
+}
+
+.star{
+    width: 30px;
+    
+}
+
+.starposition{
+  position:relative;
+    right: -245px;
+    bottom: 1050px;
+  
+  display:grid;  
+    grid-template-columns: repeat(3,150px);  /* 3 colunas */
+    grid-template-rows: repeat(3,150px); /* 2 linhas  */
+    grid-gap:100px 400px; /* linhas , colunas */
+    justify-content: center;
+}
+
+.profile{
+    width:40px;
+    padding-left: 3em; 
+    padding-right: 3em; 
+}
+.logout{
+    width:35px;
+
+}
+
+.profilelogout{
+    position:relative;
+    right: -1500px;
+    bottom: 2180px;
+
+}
+
+.iconenumerico{
+    width: 70px;
+    position:relative;
+    right: -800px;
+    bottom: 1250px;
+    
+}
+
+.resto{
+    position:relative;
+    right: -900px;
+    bottom: 1345px;
+    word-spacing: 40px;
+    font-size: 25px;
+    color: red;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
